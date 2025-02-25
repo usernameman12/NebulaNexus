@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile - Nebula Nexus</title>
+  <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body>
+  <div class="navbar">
+    <a href="/">Home</a>
+    <a href="/profile.html">Profile</a>
+    <button id="logoutButton">Log Out</button>
+  </div>
+
+  <div class="profile-container">
+    <h1>Your Profile</h1>
+    <form id="profileForm">
+      <label for="editUsername">Username</label>
+      <input type="text" id="editUsername" name="editUsername" required>
+
+      <label for="editBio">Bio</label>
+      <textarea id="editBio" name="editBio"></textarea>
+
+      <button type="submit">Save Changes</button>
+    </form>
+  </div>
+
+  <script src="/public/js/main.js"></script>
+</body>
+</html>

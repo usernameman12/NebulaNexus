@@ -1,0 +1,29 @@
+Nebula-Nexus/
+├── public/
+│   ├── assets/
+│   │   └── logo.png
+│   ├── css/
+│   │   ├── style.css
+│   │   └── theme.css
+│   ├── js/
+│   │   ├── auth.js
+│   │   ├── main.js
+│   │   └── socket.js
+│   └── index.html
+│   └── login.html
+│   └── register.html
+│   └── profile.html
+├── server/
+│   ├── data/
+│   │   ├── users.json
+│   │   └── threads.json
+│   ├── auth.js
+│   ├── db.js
+│   ├── routes.js
+│   ├── server.js
+│   ├── sockets.js
+│   └── threads.js
+├── .gitignore
+├── LICENSE
+├── README.md
+└── package.json

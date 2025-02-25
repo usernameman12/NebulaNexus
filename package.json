@@ -1,0 +1,15 @@
+{
+    "name": "Nebula-Nexus",
+    "version": "1.0.0",
+    "description": "A Twitter-like platform",
+    "main": "server/server.js",
+    "scripts": {
+      "start": "node server/server.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "socket.io": "^4.0.1",
+      "body-parser": "^1.19.0"
+    }
+  }
+  
